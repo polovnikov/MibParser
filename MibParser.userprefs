@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="MibParser/MibParser.fsproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MibParser/Program.fs">
+    <Files>
+      <File FileName="MibParser/test.fsx" Line="10" Column="79" />
+      <File FileName="Regex Toolkit" />
+      <File FileName="MibParser/Program.fs" Line="29" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
