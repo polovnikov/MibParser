@@ -135,8 +135,10 @@ let rec nodeToPythonClass (node:MibNode) =
 let main argv = 
     let file = readFile "ssm5000.mib"
     //printfn "%A" (getFieldsFromFile file list<Field>.Empty)
-    writeFile "ssm.py" (snmpFieldClass + nodeToPythonClass (parseNode file "PolarisSsm-1" [||]))
-    writeFile "control_unit.py" (snmpFieldClass + nodeToPythonClass (parseNode file "PolarisControlUnit-1" [||]))
-    writeFile "exciter.py" (snmpFieldClass + nodeToPythonClass (parseNode file "PolarisExciter-1" [||]))
-    writeFile "amplifier.py" (snmpFieldClass + nodeToPythonClass (parseNode file "PolarisAmplifier-1" [||]))
+    //writeFile "ssm.py" (snmpFieldClass + nodeToPythonClass (parseNode file "PolarisSsm-1" [||]))
+    //writeFile "control_unit.py" (snmpFieldClass + nodeToPythonClass (parseNode file "PolarisControlUnit-1" [||]))
+    //writeFile "exciter.py" (snmpFieldClass + nodeToPythonClass (parseNode file "PolarisExciter-1" [||]))
+    //writeFile "amplifier.py" (snmpFieldClass + nodeToPythonClass (parseNode file "PolarisAmplifier-1" [||]))
+    writeFile "functions.py" (snmpFieldClass + nodeToPythonClass (parseNode file "Polaris-Functions" [||]))
+
     0
